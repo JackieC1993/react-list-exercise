@@ -1,0 +1,26 @@
+.header-search {
+    display: flex; 
+    align-items: center; 
+  }
+  
+  .header-search input {
+    background-color: white;
+    border: none; 
+    padding: 8px; 
+    border-radius: 4px; 
+    margin-right: 10px; 
+    color:black; 
+  }
+  
+  .header-search button {
+    background-color: tan; 
+    border: none; 
+    cursor: pointer; 
+    color: white; 
+  }
+
+  .header-links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }

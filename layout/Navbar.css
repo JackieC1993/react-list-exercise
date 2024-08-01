@@ -1,0 +1,59 @@
+/* navbar styles */
+.navbar {
+    background-color: #003152; /* Dark blue background */
+    color: white; 
+    padding: 15px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+  }
+  
+  .navbar-logo {
+    font-weight: bold; 
+    font-size: 20px; 
+    text-decoration: none; 
+    color: white; 
+  }
+  
+  .navbar-nav {
+    display: flex; /* Flexbox layout for navigation links */
+    list-style: none; /* Remove bullet points from list */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .navbar-nav li {
+    margin-left: 20px; 
+  }
+  
+  .navbar-nav a {
+    text-decoration: none; 
+    color: white;
+  }
+  
+  /* .navbar-search {
+    display: flex; 
+    align-items: center; 
+  }
+  
+  .navbar-search input {
+    background-color: white;
+    border: none; 
+    padding: 8px; 
+    border-radius: 4px; 
+    margin-right: 10px; 
+    color: #003152; 
+  }
+  
+  .navbar-search button {
+    background-color: transparent; 
+    border: none; 
+    cursor: pointer; 
+    color: white; 
+  }
+
+  .navbar-links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  } */
